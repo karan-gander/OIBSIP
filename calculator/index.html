@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="cal">
+        <input class="display" readonly  \>
+            
+      
+        <div class="buttons">
+          <div class="items gray" onclick="clearDisplay()">C</div>
+          <div class="items gray" onclick="getOpertion('Del')">Del</div>
+          <div class="items gray" onclick="getOpertion('%')">%</div>
+          <div class="items orange" onclick="getOpertion('/')">/</div>
+          <div class="items light" onclick="getNum('7')">7</div>
+          <div class="items light" onclick="getNum('8')">8</div>
+          <div class="items light" onclick="getNum('9')">9</div>
+          <div class="items orange" onclick="getOpertion('X')">X</div>
+          <div class="items light" onclick="getNum('4')">4</div>
+          <div class="items light" onclick="getNum('5')">5</div>
+          <div class="items light" onclick="getNum('6')">6</div>
+          <div class="items orange" onclick="getOpertion('-')">-</div>
+          <div class="items light" onclick="getNum('1')">1</div>
+          <div class="items light" onclick="getNum('2')">2</div>
+          <div class="items light" onclick="getNum('3')">3</div>
+          <div class="items orange" onclick="getOpertion('+')">+</div>
+          <div class="items light big" onclick="getNum('0')">0</div>
+          <div class="items light " onclick="getOpertion('.')">.</div>
+          <!-- <div class="items light">button 19</div> -->
+          <div class="items orange" id="eqal" onclick="cal()">=</div>
+        </div>
+      </div>
+    </div>
+
+
+    <script src="main.js"></script>
+  </body>
+</html>
